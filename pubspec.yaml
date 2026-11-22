@@ -1,0 +1,24 @@
+name: oyun_yerlesim_kurma
+description: "Yerleşim Kurma – Masa Oyunları merkez uygulamasının oyunu."
+publish_to: none
+version: 1.0.0
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  studio_core:
+    git:
+      url: https://github.com/taktemurr-ops/studio-core
+      ref: 293a3eda102647b57c23e670d800d91b48d32f0b
+  masa_motoru:
+    git:
+      url: https://github.com/taktemurr-ops/masa-motoru
+      ref: 305f92a0eeee20fe60266b5069c9ef361db12593
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
